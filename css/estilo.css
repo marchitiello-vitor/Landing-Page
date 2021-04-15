@@ -238,3 +238,88 @@ footer span {
     font-size: 19px;
     color: white;
 }
+
+@media (max-width: 420px){
+    .container{
+        width: 80vw;
+    }
+
+    .container-banner {
+        display: flex;
+        justify-content: center;
+        height: 470px;
+    }
+
+    .fundo_banner {
+        height: 100%;
+        width: 420px;
+    }
+
+    h1 {
+        width: 360px;
+        font-size: 62px;
+    }
+
+    .box {
+        top: -150px;
+        left: -80px;
+        align-items: center;
+    }
+
+    .hr_banner{
+        width: 360px;
+    }
+
+    .box span{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .mouse {
+        width: 45px;
+        margin-top: 20px;
+    }
+
+    .projetos {
+        font-size: 50px;
+        margin: 50px 0;
+        font-weight: 400;
+    }
+
+    .espaçamento{
+        align-items: center;
+    }
+
+    .container_sobre{
+        height: auto;
+    }
+
+    .box_sobre {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .img_box_sobre {
+        width: 272px;
+        align-items: center;
+    }
+
+    .sobre {
+        width: auto;
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+
+    .box-span {
+        margin-top: 50px;
+    }
+
+    .box-span p {
+        width: auto;
+        text-align: justify;
+    }
+
+    .container-info {
+        flex-direction: column;
+    }
+}   
