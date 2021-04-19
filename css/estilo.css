@@ -11,7 +11,7 @@
     width: 1200px;
     /* background-color: blue; */
     margin: 0 auto;
-
+    
 }
 
 .container_header {
@@ -44,6 +44,12 @@ header {
     top: 0;
     z-index: 2;
     width: 100%;
+}
+
+.btn i {
+    color: white;
+    display: none;
+    font-size: 30px;
 }
 
 .menu_de_cima {
@@ -244,6 +250,29 @@ footer span {
         width: 80vw;
     }
 
+    .container_header {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu_de_cima {
+        display: none;
+        flex-direction: column;
+        align-items: unset;
+        position: absolute;
+        justify-content: space-evenly;
+        padding-left: 10vw;      
+        left: 0;
+        top: 60px;
+        width: 100%;
+        height: 300px;
+        background-color: black;   
+        
+    }
+    .btn i {
+        display: inline-block;
+    }
+
     .container-banner {
         display: flex;
         justify-content: center;
@@ -317,9 +346,47 @@ footer span {
     .box-span p {
         width: auto;
         text-align: justify;
+        margin-bottom: 50px;
     }
 
     .container-info {
         flex-direction: column;
+        height: 550px;
+        justify-content: space-around;
     }
+
+    .endereço h2 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+        width: unset;
+        align-items: center;
+    }
+
+    .box-endereço {
+        width: 80vw;
+        height: unset;
+        padding: 50px 60px;
+    }
+
+    .box-endereço p {
+        margin-left: unset;
+    }
+
+    .endereço {
+        position: unset;
+        height: unset;
+    }
+
+    .endereço img {
+        position: unset;
+        margin: unset;
+        margin: 20px 0px 54px 0px;
+    }
+
+    footer span {
+        width: 80vw;
+        text-align: center;
+    } 
+
+
 }   
